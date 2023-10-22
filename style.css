@@ -1,0 +1,43 @@
+h1{
+    color:rgb(5, 63, 13);
+    text-align:center;
+    font-size: 2em;
+    border-bottom:solid 1px rgb(230, 13, 13);
+    display: inline-block;
+    box-shadow: 20px 3px 4px #647027;
+    font-style: italic;
+}
+
+body{
+    background-image: url(image.jpg);
+    background-size: cover;    
+}
+p{
+    font-style: italic;
+    font-size: 1em;
+    font-family:'Dancing Script', cursive;
+    line-height: 20px;
+    color: rgb(4, 51, 51);
+}
+img{
+    width: 450px;
+    height: 300px; 
+    transition: all 5s;
+    margin:5px,6px,10px,4px; 
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+img:hover{
+    transform: scale(1.1);
+}
+a{
+    color: rgb(58, 130, 236);
+    font-size:2em;
+    text-align: justify;
+}
+.animate__animated.animate__rubberBand{
+    --animate-duration: 3s;
+} 
